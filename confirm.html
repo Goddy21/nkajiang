@@ -1,0 +1,25 @@
+<?php 
+session_start();
+
+if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
+
+ ?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Confirmation</title>
+<link rel="stylesheet" type="text/css" href="confirm.css">
+</head>
+<body>
+<h1>Request made successfully...</h1>
+<p id="info">Dear <?php echo $_SESSION['name']; ?>, we have recieved your request...please be patient as we process it,<br> 
+you shall get our response via either a phonecall, an SMS or an email</p>
+<p id="thanks">Thank you for choosing Nkajiang Homes!</p>
+</body>
+</html>
+<?php 
+}else{
+     header("Location: index.php");
+     exit();
+}
+ ?>

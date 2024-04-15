@@ -1,0 +1,21 @@
+body{
+	text-align:center;
+	margin-top:200px;
+	background-color:azure;
+}
+h1 {
+    color: green;
+    font-size: 3vw;
+	margin:5px;
+	padding-top:15px;
+}
+#thanks{
+    color: red;
+    font-size: 2vw;
+	font-style:italic;
+}
+#info{
+	font-size:1.5rem;
+	color:#351868;
+	margin-left:50px;
+}

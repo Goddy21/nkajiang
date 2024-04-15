@@ -32,10 +32,10 @@
 			<input type="text"
 				   name="uname" 
 				   placeholder="User Name" 
-				   value="<?php echo $_GET['name']; ?>"><br>
+				   value="<?php echo $_GET['uname']; ?>"><br>
      	<?php } else {?>
 			<input type="text" 
-			       name="name" 
+			       name="uname" 
 				   placeholder="User Name"><br>
 		<?php }?> 	
 
